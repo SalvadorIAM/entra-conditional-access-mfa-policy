@@ -1,6 +1,6 @@
-# sc300-entra-conditional-access-mfa-lab
+# entra-conditional-access-mfa-lab
 Hands-on lab documenting MFA enforcement using Microsoft Entra Conditional Access
-# Microsoft Entra ID – Conditional Access MFA Lab (SC-300)
+# Microsoft Entra ID – Conditional Access MFA Lab 
 
 ## Overview
 This lab demonstrates how to enforce Multi-Factor Authentication (MFA) using Microsoft Entra ID Conditional Access (modern approach) and contrasts it with legacy per-user MFA. The lab also shows how to validate enforcement using Entra ID sign-in logs.
