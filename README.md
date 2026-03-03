@@ -1,4 +1,4 @@
-# Entra Conditional Access MFA Lab
+# # Entra Conditional Access MFA Policy
 
 Implementation of Multi-Factor Authentication enforcement using Microsoft Entra ID Conditional Access. This lab demonstrates the modern approach to MFA enforcement, contrasts it with legacy per-user MFA, and validates policy application using sign-in log analysis.
 
