@@ -1,4 +1,4 @@
-#  Entra Conditional Access MFA Policy
+# Entra Conditional Access MFA Policy
 
 Implementation of Multi-Factor Authentication enforcement using Microsoft Entra ID Conditional Access. This lab demonstrates the modern approach to MFA enforcement, contrasts it with legacy per-user MFA, and validates policy application using sign-in log analysis.
 
@@ -30,8 +30,8 @@ The lab includes validation of policy enforcement using Microsoft Entra ID sign-
 ### 1. Users and Groups
 
 * Created test users (for example: standard user and HR user)
-* Created a department-based security group
-* Assigned users to the group to test **group-based policy inheritance**
+* Created a department based security group
+* Assigned users to the group to test **group based policy inheritance**
 
 ### 2. Conditional Access Policy
 
@@ -51,6 +51,14 @@ The lab includes validation of policy enforcement using Microsoft Entra ID sign-
 * Verified policy enforcement using **Microsoft Entra ID sign in logs**
 * Confirmed Conditional Access policy status showed as **Applied**
 
+## Security Best Practices Demonstrated
+
+* Use **Conditional Access policies** instead of legacy per user MFA
+* Test security policies using **Report only mode** before enforcement
+* Validate policy behaviour using **sign in logs**
+* Apply authentication controls through **centralised identity policies**
+* Implement MFA as part of a **modern identity security architecture**
+
 ## Key Learning Outcomes
 
 * Per user MFA is a **legacy feature** and should not be used for new deployments
@@ -60,7 +68,7 @@ The lab includes validation of policy enforcement using Microsoft Entra ID sign-
 
 ## Next Steps
 
-* Implement location-based Conditional Access
+* Implement location based Conditional Access
 * Add device compliance requirements
 * Configure and exclude break glass accounts
 * Expand testing to additional users and scenarios
